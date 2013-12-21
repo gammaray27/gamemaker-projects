@@ -9,11 +9,16 @@
     <sprite>sprites\stank</sprite>
     <sprite>sprites\stillstanks</sprite>
     <sprite>sprites\smissile</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\ostank</object>
+    <object>objects\omissle</object>
+    <object>objects\object2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
