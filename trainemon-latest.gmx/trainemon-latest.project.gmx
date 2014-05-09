@@ -30,6 +30,7 @@
     <sprite>sprites\sPuddle3</sprite>
     <sprite>sprites\sPuddle4</sprite>
     <sprite>sprites\sWishingStar</sprite>
+    <sprite>sprites\sprite44</sprite>
     <sprite>sprites\sQuicksilver</sprite>
     <sprite>sprites\sKitchenFloor</sprite>
     <sprite>sprites\sTuturedSoul</sprite>
@@ -37,7 +38,7 @@
     <sprite>sprites\sOcean</sprite>
     <sprite>sprites\sSpawner</sprite>
     <sprite>sprites\sHudBar</sprite>
-    <sprite>sprites\sprite31</sprite>
+    <sprite>sprites\sEcho</sprite>
     <sprite>sprites\sCaptureBlock</sprite>
     <sprite>sprites\sCaptureBlockFilled</sprite>
     <sprite>sprites\sInvisible</sprite>
@@ -45,6 +46,11 @@
     <sprite>sprites\sprite37</sprite>
     <sprite>sprites\sBROKEN_Capsule</sprite>
     <sprite>sprites\sEgg</sprite>
+    <sprite>sprites\sprite40</sprite>
+    <sprite>sprites\ssodacant_andwhenattaced_</sprite>
+    <sprite>sprites\sSava</sprite>
+    <sprite>sprites\sLogBook</sprite>
+    <sprite>sprites\sLoadFileFile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -71,6 +77,9 @@
     <object>objects\oQuickSilver</object>
     <object>objects\okitchenFloor</object>
     <object>objects\oSpawner</object>
+    <object>objects\object30</object>
+    <object>objects\object29</object>
+    <object>objects\object28</object>
     <object>objects\oOcean</object>
     <object>objects\oHudBar</object>
     <object>objects\oCaptureBlockFilled</object>
@@ -83,9 +92,14 @@
     <object>objects\oTyingFish</object>
     <object>objects\oFire_quacker</object>
     <object>objects\oEgg</object>
-    <object>objects\object27</object>
+    <object>objects\oWishingStar</object>
+    <object>objects\osodacant</object>
+    <object>objects\ologBook</object>
+    <object>objects\oLoadFile</object>
+    <object>objects\oStart_</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room8</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
     <room>rooms\room3</room>

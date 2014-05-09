@@ -20,5 +20,8 @@
   <height>32</height>
   <frames>
     <frame index="0">images\sWishingStar_0.png</frame>
+    <frame index="1">images\sWishingStar_1.png</frame>
+    <frame index="2">images\sWishingStar_2.png</frame>
+    <frame index="3">images\sWishingStar_3.png</frame>
   </frames>
 </sprite>
