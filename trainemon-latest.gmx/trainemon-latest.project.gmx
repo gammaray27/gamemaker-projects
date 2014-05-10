@@ -64,9 +64,10 @@
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\oWall</object>
-    <object>objects\sKitchen_wall</object>
     <object>objects\oDoor1</object>
+    <object>objects\olockeddoor</object>
     <object>objects\oDoorG</object>
+    <object>objects\sKitchen_wall</object>
     <object>objects\oDoor0</object>
     <object>objects\oDoorM</object>
     <object>objects\oHouse</object>
@@ -83,11 +84,9 @@
     <object>objects\oOcean</object>
     <object>objects\oHudBar</object>
     <object>objects\oCaptureBlockFilled</object>
-    <object>objects\object17</object>
+    <object>objects\ospawnercontact</object>
     <object>objects\oCaptureBlock</object>
-    <object>objects\object18</object>
     <object>objects\oCapsule</object>
-    <object>objects\object23</object>
     <object>objects\oFIssureman</object>
     <object>objects\oTyingFish</object>
     <object>objects\oFire_quacker</object>
@@ -100,10 +99,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room8</room>
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
-    <room>rooms\room3</room>
     <room>rooms\Map</room>
+    <room>rooms\room0</room>
+    <room>rooms\room3</room>
     <room>rooms\room5</room>
     <room>rooms\room6</room>
     <room>rooms\room7</room>
