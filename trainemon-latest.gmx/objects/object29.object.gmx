@@ -83,15 +83,15 @@
           </argument>
           <argument>
             <kind>10</kind>
-            <object>oFire_quacker</object>
+            <object>osodacant</object>
           </argument>
           <argument>
             <kind>10</kind>
-            <object>oTyingFish</object>
+            <object>-1</object>
           </argument>
           <argument>
             <kind>10</kind>
-            <object>oFIssureman</object>
+            <object>-1</object>
           </argument>
           <argument>
             <kind>0</kind>

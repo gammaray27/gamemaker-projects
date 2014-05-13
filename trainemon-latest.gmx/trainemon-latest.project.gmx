@@ -51,6 +51,7 @@
     <sprite>sprites\sSava</sprite>
     <sprite>sprites\sLogBook</sprite>
     <sprite>sprites\sLoadFileFile</sprite>
+    <sprite>sprites\sprite45</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -96,6 +97,7 @@
     <object>objects\ologBook</object>
     <object>objects\oLoadFile</object>
     <object>objects\oStart_</object>
+    <object>objects\object34</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room8</room>
