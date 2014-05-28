@@ -32,6 +32,7 @@
     <sprite>sprites\sWishingStar</sprite>
     <sprite>sprites\sprite44</sprite>
     <sprite>sprites\sQuicksilver</sprite>
+    <sprite>sprites\alpha_quick_silver</sprite>
     <sprite>sprites\sKitchenFloor</sprite>
     <sprite>sprites\sTuturedSoul</sprite>
     <sprite>sprites\sDarkCretchers</sprite>
@@ -77,11 +78,12 @@
     <object>objects\pTrainemon</object>
     <object>objects\oButterfries</object>
     <object>objects\oQuickSilver</object>
+    <object>objects\oBetter_Work</object>
+    <object>objects\object35</object>
     <object>objects\okitchenFloor</object>
     <object>objects\oSpawner</object>
     <object>objects\object30</object>
     <object>objects\object29</object>
-    <object>objects\object28</object>
     <object>objects\oOcean</object>
     <object>objects\oHudBar</object>
     <object>objects\oCaptureBlockFilled</object>
@@ -100,11 +102,11 @@
     <object>objects\object34</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room3</room>
     <room>rooms\room8</room>
     <room>rooms\room1</room>
     <room>rooms\Map</room>
     <room>rooms\room0</room>
-    <room>rooms\room3</room>
     <room>rooms\room5</room>
     <room>rooms\room6</room>
     <room>rooms\room7</room>
