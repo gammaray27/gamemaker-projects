@@ -34,7 +34,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="pTrainemon">
+    <event eventtype="4" ename="oTrainemon">
       <action>
         <libid>1</libid>
         <id>301</id>

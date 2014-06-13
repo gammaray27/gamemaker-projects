@@ -52,7 +52,7 @@ hatch = 0;
             <kind>1</kind>
             <string>/// hatch
 
-  hatch += 1;
+hatch += 1;
   
 if (hatch &gt;= 1000) {
   instance_change(oVolcroc, 1);
