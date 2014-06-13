@@ -6,53 +6,99 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sPlayer</sprite>
-    <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sDoor</sprite>
-    <sprite>sprites\sHouse</sprite>
-    <sprite>sprites\sHedge</sprite>
-    <sprite>sprites\sVolcroc</sprite>
-    <sprite>sprites\sprite35</sprite>
-    <sprite>sprites\sButterfries</sprite>
-    <sprite>sprites\sprite36</sprite>
-    <sprite>sprites\sFire_quacker</sprite>
-    <sprite>sprites\sprite38</sprite>
-    <sprite>sprites\sTyingfish</sprite>
-    <sprite>sprites\sprite39</sprite>
-    <sprite>sprites\sFissure_man</sprite>
-    <sprite>sprites\sCatilist</sprite>
-    <sprite>sprites\sOtter</sprite>
-    <sprite>sprites\sDryad</sprite>
-    <sprite>sprites\sMutant</sprite>
-    <sprite>sprites\sStick_figure</sprite>
-    <sprite>sprites\sPuddle1</sprite>
-    <sprite>sprites\sPuddle2</sprite>
-    <sprite>sprites\sPuddle3</sprite>
-    <sprite>sprites\sPuddle4</sprite>
-    <sprite>sprites\sWishingStar</sprite>
-    <sprite>sprites\sprite44</sprite>
-    <sprite>sprites\sQuicksilver</sprite>
-    <sprite>sprites\alpha_quick_silver</sprite>
-    <sprite>sprites\sKitchenFloor</sprite>
-    <sprite>sprites\sTuturedSoul</sprite>
-    <sprite>sprites\sDarkCretchers</sprite>
-    <sprite>sprites\sOcean</sprite>
-    <sprite>sprites\sSpawner</sprite>
-    <sprite>sprites\sHudBar</sprite>
-    <sprite>sprites\sEcho</sprite>
-    <sprite>sprites\sCaptureBlock</sprite>
-    <sprite>sprites\sCaptureBlockFilled</sprite>
-    <sprite>sprites\sInvisible</sprite>
-    <sprite>sprites\scapsul</sprite>
-    <sprite>sprites\sprite37</sprite>
-    <sprite>sprites\sBROKEN_Capsule</sprite>
-    <sprite>sprites\sEgg</sprite>
-    <sprite>sprites\sprite40</sprite>
-    <sprite>sprites\ssodacant_andwhenattaced_</sprite>
-    <sprite>sprites\sSava</sprite>
-    <sprite>sprites\sLogBook</sprite>
-    <sprite>sprites\sLoadFileFile</sprite>
-    <sprite>sprites\sprite45</sprite>
+    <sprites name="Hud">
+      <sprite>sprites\sLoadFileFile</sprite>
+      <sprite>sprites\sLogBook</sprite>
+      <sprite>sprites\sSava</sprite>
+      <sprite>sprites\sHudBar</sprite>
+      <sprite>sprites\sCaptureBlock</sprite>
+      <sprite>sprites\sCaptureBlockFilled</sprite>
+      <sprite>sprites\sInvisible</sprite>
+    </sprites>
+    <sprites name="MapTiles">
+      <sprite>sprites\sWall</sprite>
+      <sprite>sprites\sDoor</sprite>
+      <sprite>sprites\sHouse</sprite>
+      <sprite>sprites\sHedge</sprite>
+      <sprite>sprites\sEgg</sprite>
+      <sprite>sprites\sKitchenFloor</sprite>
+      <sprite>sprites\sOcean</sprite>
+      <sprite>sprites\sSpawner</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\sPlayerIdle</sprite>
+      <sprite>sprites\sPlayerDown</sprite>
+      <sprite>sprites\sPlayerUp</sprite>
+      <sprite>sprites\sPlayerLeft</sprite>
+      <sprite>sprites\sPlayerRight</sprite>
+      <sprites name="Cubes">
+        <sprite>sprites\sprite37</sprite>
+        <sprite>sprites\scapsul</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Trainemon">
+      <sprites name="SodaCant">
+        <sprite>sprites\sSodaCantAttacked</sprite>
+        <sprite>sprites\sSodaCant</sprite>
+      </sprites>
+      <sprites name="Volcroc">
+        <sprite>sprites\sVolcroc</sprite>
+      </sprites>
+      <sprites name="FireQuacker">
+        <sprite>sprites\sFireQuaker</sprite>
+      </sprites>
+      <sprites name="ButterFries">
+        <sprite>sprites\sButterFries</sprite>
+      </sprites>
+      <sprites name="TyingFish">
+        <sprite>sprites\sTyingfish</sprite>
+      </sprites>
+      <sprites name="FissureMan">
+        <sprite>sprites\sFissureMan</sprite>
+      </sprites>
+      <sprites name="Catalyst">
+        <sprite>sprites\sCatalyst</sprite>
+      </sprites>
+      <sprites name="Otter">
+        <sprite>sprites\sOtter</sprite>
+      </sprites>
+      <sprites name="Dryad">
+        <sprite>sprites\sDryad</sprite>
+      </sprites>
+      <sprites name="Mutant">
+        <sprite>sprites\sMutant</sprite>
+      </sprites>
+      <sprites name="StickFigure">
+        <sprite>sprites\sStickFigure</sprite>
+      </sprites>
+      <sprites name="Puddle">
+        <sprite>sprites\sPuddle1</sprite>
+        <sprite>sprites\sPuddle2</sprite>
+        <sprite>sprites\sPuddle3</sprite>
+        <sprite>sprites\sPuddle4</sprite>
+      </sprites>
+      <sprites name="WishingStar">
+        <sprite>sprites\sWishingStar</sprite>
+        <sprite>sprites\sWishingStarAlt</sprite>
+      </sprites>
+      <sprites name="QuickSilver">
+        <sprite>sprites\sQuickSilver</sprite>
+        <sprite>sprites\sQuickSilverAlpha</sprite>
+      </sprites>
+      <sprites name="TorturedSoul">
+        <sprite>sprites\sTorturedSoul</sprite>
+      </sprites>
+      <sprites name="DarkCreatures">
+        <sprite>sprites\sDarkCreatures</sprite>
+      </sprites>
+      <sprites name="Echo">
+        <sprite>sprites\sEcho</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Effects">
+      <sprite>sprites\sBROKEN_Capsule</sprite>
+      <sprite>sprites\sprite40</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -64,56 +110,55 @@
     <script>scripts\animate_movement.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\oPlayer</object>
-    <object>objects\oWall</object>
-    <object>objects\oDoor1</object>
-    <object>objects\olockeddoor</object>
-    <object>objects\oDoorG</object>
-    <object>objects\sKitchen_wall</object>
-    <object>objects\oDoor0</object>
-    <object>objects\oDoorM</object>
-    <object>objects\oHouse</object>
-    <object>objects\oHedge</object>
-    <object>objects\oVolcroc</object>
-    <object>objects\pTrainemon</object>
-    <object>objects\oButterfries</object>
-    <object>objects\oQuickSilver</object>
-    <object>objects\oBetter_Work</object>
-    <object>objects\object35</object>
-    <object>objects\okitchenFloor</object>
-    <object>objects\oSpawner</object>
-    <object>objects\object30</object>
-    <object>objects\object29</object>
-    <object>objects\oOcean</object>
-    <object>objects\oHudBar</object>
-    <object>objects\oCaptureBlockFilled</object>
-    <object>objects\ospawnercontact</object>
-    <object>objects\oCaptureBlock</object>
-    <object>objects\oCapsule</object>
-    <object>objects\oFIssureman</object>
-    <object>objects\oTyingFish</object>
-    <object>objects\oFire_quacker</object>
-    <object>objects\oEgg</object>
-    <object>objects\oWishingStar</object>
-    <object>objects\osodacant</object>
-    <object>objects\ologBook</object>
-    <object>objects\oLoadFile</object>
-    <object>objects\oStart_</object>
-    <object>objects\object34</object>
-    <object>objects\object36</object>
-    <object>objects\object38</object>
-    <object>objects\object39</object>
-    <object>objects\object40</object>
+    <objects name="Hud">
+      <object>objects\oCaptureBlock</object>
+      <object>objects\oCaptureBlockFilled</object>
+      <object>objects\oHudBar</object>
+      <object>objects\oLogBook</object>
+      <object>objects\oLoadFile</object>
+    </objects>
+    <objects name="MapTiles">
+      <object>objects\oEgg</object>
+      <object>objects\oWall</object>
+      <object>objects\oDoor</object>
+      <object>objects\oLockedDoor</object>
+      <object>objects\oKitchenWall</object>
+      <object>objects\oDoorG</object>
+      <object>objects\oDoor0</object>
+      <object>objects\oDoorM</object>
+      <object>objects\oHouse</object>
+      <object>objects\oHedge</object>
+      <object>objects\oOcean</object>
+      <object>objects\oSpawner</object>
+      <object>objects\oKitchenFloor</object>
+      <object>objects\oStart</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\oPlayer</object>
+      <objects name="Cube">
+        <object>objects\oCapsule</object>
+      </objects>
+    </objects>
+    <objects name="Trainemon">
+      <object>objects\oVolcroc</object>
+      <object>objects\oTrainemon</object>
+      <object>objects\oButterFries</object>
+      <object>objects\oQuickSilver</object>
+      <object>objects\oFissureMan</object>
+      <object>objects\oTyingFish</object>
+      <object>objects\oWishingStar</object>
+      <object>objects\oFireQuacker</object>
+      <object>objects\oSodaCant</object>
+      <object>objects\oTorturedSoul</object>
+      <object>objects\oDarkCreatures</object>
+      <object>objects\oQuickSilverAlpha</object>
+      <object>objects\oEcho</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room3</room>
+    <room>rooms\Start</room>
+    <room>rooms\Home</room>
     <room>rooms\Map</room>
-    <room>rooms\room8</room>
-    <room>rooms\room1</room>
-    <room>rooms\room0</room>
-    <room>rooms\room5</room>
-    <room>rooms\room6</room>
-    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

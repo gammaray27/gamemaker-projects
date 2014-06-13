@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>osodacant</object>
+            <object>oSodaCant</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -133,11 +133,11 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>oButterfries</object>
+            <object>oButterFries</object>
           </argument>
           <argument>
             <kind>10</kind>
-            <object>oFire_quacker</object>
+            <object>oFireQuacker</object>
           </argument>
           <argument>
             <kind>10</kind>
@@ -145,7 +145,7 @@
           </argument>
           <argument>
             <kind>10</kind>
-            <object>oFIssureman</object>
+            <object>oFissureMan</object>
           </argument>
           <argument>
             <kind>0</kind>
